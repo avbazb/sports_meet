@@ -60,8 +60,8 @@
 2. 导入数据库结构（db/schema.sql）
 3. 修改includes/config.php中的数据库配置
 4. 启动PHP服务器或将文件部署到支持PHP的Web服务器
-5.在includes\functions.php中添加智谱AI的API密钥
-6.在index.php中修改天气的url（高德的api，具体可以查看高德地图开放平台的api文档）默认是海淀区的天气
+5. 在includes\functions.php中添加智谱AI的API密钥
+6. 在index.php中修改天气的url（高德的api，具体可以查看高德地图开放平台的api文档）默认是海淀区的天气
 
 ## 账号信息
 - 默认管理员账号：admin
