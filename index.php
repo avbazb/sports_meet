@@ -30,7 +30,7 @@ if ($settings) {
 $weatherData = null;
 $weatherError = null;
 if ($page === 'home') {
-    $weatherApiUrl = "https://restapi.amap.com/v3/weather/weatherInfo?key=1d115bcf6cc3584ba6bbd56198c4edaa&city=110108&extensions=base";
+    $weatherApiUrl = "https://restapi.amap.com/v3/weather/weatherInfo?key=&city=110108&extensions=base";
     
     // 使用CURL代替file_get_contents，更可靠且有错误信息
     $ch = curl_init();
